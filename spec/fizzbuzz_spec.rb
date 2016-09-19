@@ -17,10 +17,6 @@ describe "fizzbuzz" do
     expect(fizzbuzz(30)).to eq "FizzBuzz"
   end
 
-  it "should return `fizzbuzz` for number divisible by 3 and 5" do
-    expect(fizzbuzz(90)).to eq "FizzBuzz"
-  end
-
   it "should return the integer if not divisible by 3 or 5" do
     expect(fizzbuzz(1)).to eq 1
     expect(fizzbuzz(7)).to eq 7 
